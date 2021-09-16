@@ -1,6 +1,7 @@
 # based64-cli
 
-A simple base64 encoder and decoder cli
+A simple base64 encoder and decoder cli.\
+_Note: will automatically copy to clipboard_
 
 ## How to install
 

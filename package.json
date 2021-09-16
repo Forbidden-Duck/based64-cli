@@ -1,6 +1,6 @@
 {
   "name": "based64-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "CLI tool for encoding and decoding base64",
   "main": "./bin/based64.js",
   "keywords": [
@@ -29,6 +29,7 @@
     "based64": "node ./bin/based64.js"
   },
   "dependencies": {
+    "clipboardy": "^2.3.0",
     "crypto-js": "^4.1.1"
   },
   "bin": {
