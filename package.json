@@ -2,7 +2,7 @@
   "name": "based64-cli",
   "version": "1.0.0",
   "description": "CLI tool for encoding and decoding base64",
-  "main": "index.js",
+  "main": "./bin/based64.js",
   "keywords": [
     "base64",
     "based64",
@@ -25,7 +25,21 @@
   ],
   "author": "Harrison Howard (Forbidden-Duck)",
   "license": "MIT",
+  "scripts": {
+    "based64": "node ./bin/based64.js"
+  },
   "dependencies": {
     "crypto-js": "^4.1.1"
+  },
+  "bin": {
+    "based64": "./bin/based64.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forbidden-Duck/based64-cli.git"
+  },
+  "homepage": "https://github.com/Forbidden-Duck/based64-cli.git",
+  "devDependencies": {
+    "@types/node": "^16.9.1"
   }
 }
