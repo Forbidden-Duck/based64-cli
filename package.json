@@ -26,7 +26,6 @@
   "author": "Harrison Howard (Forbidden-Duck)",
   "license": "MIT",
   "dependencies": {
-    "crypto-js": "^4.1.1",
-    "prompt-sync": "^4.2.0"
+    "crypto-js": "^4.1.1"
   }
 }
