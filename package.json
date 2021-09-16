@@ -1,0 +1,31 @@
+{
+  "name": "based64-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for encoding and decoding base64",
+  "main": "index.js",
+  "keywords": [
+    "base64",
+    "based64",
+    "cli",
+    "based64-cli",
+    "base64-cli",
+    "base",
+    "based",
+    "64",
+    "command",
+    "line",
+    "interface",
+    "command-line-interface",
+    "command line interface",
+    "tool",
+    "encode",
+    "decode",
+    "encoder",
+    "decoder"
+  ],
+  "author": "Harrison Howard (Forbidden-Duck)",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
