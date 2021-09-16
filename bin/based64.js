@@ -2,7 +2,7 @@
 "use strict";
 const base64 = require("../utils/base64");
 const action = process.argv[2];
-const str = process.argv[3];
+const str = process.argv.slice(3).join(" ");
 
 if (typeof action !== "string" || action.length <= 0) {
     console.error("Missing action 'based64 action* str*'");
